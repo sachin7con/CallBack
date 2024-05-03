@@ -12,8 +12,9 @@
   // SGN
 
   function OpeningCeremony(callback) {
+    console.log('Let the games begin');
     setTimeout(() => {
-      console.log('Let the games begin');
+      
       let score = { red: 0, blue: 0, green: 0, yellow: 0 };
       callback(score, Race100M);
     }, 1000);
